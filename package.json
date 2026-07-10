@@ -13,7 +13,6 @@
     "build:ui": "rm -rf dist/ && cd ../../part2/phonebook/ && npm run build && cp -r dist ../../part3/phonebook/"
   },
   "dependencies": {
-    "cors": "^2.8.6",
     "express": "^5.2.1",
     "morgan": "^1.11.0"
   }
