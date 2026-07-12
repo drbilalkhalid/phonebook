@@ -13,7 +13,9 @@
     "build:ui": "rm -rf dist/ && cd ../../part2/phonebook/ && npm run build && cp -r dist ../../part3/phonebook/"
   },
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "mongoose": "^9.7.4",
     "morgan": "^1.11.0"
   }
 }
